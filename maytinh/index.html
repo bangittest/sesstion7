@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <title>Calculator</title>
+    <link rel="stylesheet" href="cs.css" /> -->
+</head>
+
+<body>
+    <!-- <div class="calculator">
+      <input type="text" id="display" readonly />
+      <table>
+        <tr>
+          <td><button onclick="clearDisplay()">C</button></td>
+          <td><button onclick="backspace()">CE</button></td>
+          <td><button onclick="insertOperator('/')">÷</button></td>
+          <td><button onclick="insertOperator('*')">x</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="insertNumber('7')">7</button></td>
+          <td><button onclick="insertNumber('8')">8</button></td>
+          <td><button onclick="insertNumber('9')">9</button></td>
+          <td><button onclick="insertOperator('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="insertNumber('4')">4</button></td>
+          <td><button onclick="insertNumber('5')">5</button></td>
+          <td><button onclick="insertNumber('6')">6</button></td>
+          <td><button onclick="insertOperator('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="insertNumber('1')">1</button></td>
+          <td><button onclick="insertNumber('2')">2</button></td>
+          <td><button onclick="insertNumber('3')">3</button></td>
+          <td rowspan="3"><button onclick="calculate()">=</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="insertNumber('0')">0</button></td>
+          <td><button onclick="insertNumber('.')">.</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="js.js"></script> -->
+
+    <!-- <h2>A WEB PAGE</h2>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try It!</button>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragrap changed";
+      }
+    </script>
+    <script
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <button onclick="alert('Xin chào bạn!');">Click me</button>
+    <script>
+      alert("Hi! I am an alert box!");
+    </script>
+    <script>
+      prompt("Enter your phone number:");
+    </script> -->
+
+    <!-- <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+      function showMessage() {
+        document.write("Xin chào!");
+        let a = 5;
+        let b = 6;
+        let c = a + b;
+        console.log(c);
+      }
+    </script> -->
+
+    <!-- <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+      function showMessage() {
+        console.log("Xin chào!");
+      }
+    </script> -->
+
+    <!-- <script>
+      function divide(a, b) {
+        return 1 / (a - b);
+      }
+
+      function main() {
+        let a = 1;
+        let b = 2;
+        let c = divide(a, b);
+      }
+      main();
+    </script> -->
+    <!-- BEGIN DISPLAY "Enter 2 numbers: " INPUT A, B C = A + B DISPLAY C END -->
+
+    <!-- <script>
+      let answer = "Hà Nội là thủ đô của nước Việt Nam";
+      let answer = "Hà Nội là thủ đô của nước 'Việt Nam'";
+      let answer = 'Hà Nội là thủ đô của nước "Việt Nam"';
+      console.log(answer);
+   </script> -->
+
+    <!-- <script>
+        let x1 = 69.0;
+        let x2 = 69;
+        let x1x2 = x1 * x2;
+        console.log(x1x2);
+    </script> -->
+
+    <!-- <script>
+        100
+        3.14
+            -
+            15 
+            "Hello"
+        "false"
+        7 + 1 + 3.14
+    </script> -->
+    <!-- <script>
+      let x = 5;
+let y = ++x; 
+let z= x+y; //++x tăng lên 1 phần tử trước xog thay vào y, 
+//x++ thay vào y =5 tính hết thuật toán mới quay lại cộng thêm 1 vào x nên x=6 y=5 
+console.log(z);
+    </script> -->
+
+<!-- <script>
+    let x = 5;
+    let y = 6;
+    let z = x % y
+    console.log(z)
+    </script> -->
+
+
+
+
+    <!-- <script>
+      let x = 5;
+      let y = x === 5;
+      let z = x === "5";
+      console.log(x);
+      console.log(y);
+      console.log(z);
+    </script> -->
+
+
+
+      <!-- <script>
+ typeof "John"; // return "string"
+ typeof 3.14; // return "number"
+ typeof true; // return "boolean"
+ typeof false; // return "boolean"
+</script> -->
+    
+
+<!-- 
+<script>
+  function findMin(num1, num2, num3) {
+   let min = num1;
+   if (num2 < min) {
+     min = num2;
+   }
+   if (num3 < min) {
+     min = num3;
+   }
+   return min;
+
+}
+
+// Sử dụng hàm findMin để tìm giá trị nho nhất trong 3 số
+let a = +prompt("nhap gia tri vao day"), b = +prompt("nhap gia tri b vao day"), c = +prompt(" nhap gia tri c vao day");
+let min = findMin(a, b, c);
+console.log("Giá trị nho nhat trong 3 số là: " + min);
+</script> -->
+
+
+
+
+<!-- tim gia tri nho nhat -->
+<script>
+  function findMax(so1 , so2 ,so3){
+  let max = so1;
+  if ( max < so2){
+    max = so2;
+  }
+  if (max < so3){
+     max = so3;
+  }
+  return max;
+}
+  let a = +prompt ("nhap phan tu a vao day")
+  let b = +prompt("nhap phan tu b vao day")
+  let c = +prompt ("nhap phan tu c vao day")
+  let max = findMax(a,b,c);
+  console.log("gia tri lon nhat trong 3 so la:" + max);
+
+</script>
+</body>
+
+</html>
+
+
+
+

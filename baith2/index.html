@@ -27,5 +27,18 @@
       }
     </script> -->
     <script src="js.js"></script>
+    <label for="">Amount</label>
+    <input type="number" name="" id="money" />
+    <!-- <input onclick="hienthi" type="number" name="" id="doiten" /> -->
+    <button onclick="hienthi()">click</button>
+    <script>
+      function hienthi() {
+        let data = document.getElementById("money").value;
+        console.log(data);
+        let dulieu = data * 23000;
+        console.log(dulieu);
+        document.write(`${data} \$ \=${dulieu}vnd`);
+      }
+    </script>
   </body>
 </html>

@@ -4,8 +4,7 @@ var x = 5;
 
 
 let changePasswordRowNow = "Nguyen Luong Bang \"";
-let char = `
-c `;
+let char = `check`;
 let check = (true);
 
 
